@@ -2,19 +2,37 @@ html{
     font-size: 20px;
 }
 
+.contenedor-principal{
+    margin: 0 auto;
+    background: red;
+}
+
+/**Cabezera, el dibujo y fondo*/
+
 #portada{
     background-color: black;
+    width: 100%;
+    box-sizing: border-box;
 }
-/**Cabezera*/
 
 #portada img{
     display: block;
     margin-left: auto;
     margin-right: auto;
+    height: 25vh;
 }
 
 
+/**Cabezera, navegación*/
 
+#portada nav a{
+    font-size: 0.7em;
+    border: white solid 0.01em;
+    padding: 0.8%;
+    background-color: whitesmoke;
+    color: black;
+    
+}
 
 
 
